@@ -10,5 +10,8 @@ bin:
 linux:
 	make binary GOOS=linux
 
+upx:
+	upx bin/dynasty
+
 test:
 	go test -v gitlhub.com/athoune/docker-dynasty-go/dynasty
