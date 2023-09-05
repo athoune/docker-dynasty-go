@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/docker/docker/client"
-	"gitlhub.com/factorysh/docker-dynasty-go/dynasty"
+	"gitlhub.com/athoune/docker-dynasty-go/dynasty"
 )
 
 func main() {
