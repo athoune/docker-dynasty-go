@@ -7,5 +7,8 @@ binary: bin
 bin:
 	mkdir -p bin
 
+linux:
+	make binary GOOS=linux
+
 test:
 	go test -v gitlhub.com/athoune/docker-dynasty-go/dynasty
